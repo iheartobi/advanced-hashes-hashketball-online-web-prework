@@ -148,7 +148,7 @@ def shoe_size(player_name)
   # end
 end 
 
-def team_colors(player_name)
+def team_colors(team_name)
   hash = game_hash
   game_hash.each do |team, data|
     if hash[team].values.include?(name)
